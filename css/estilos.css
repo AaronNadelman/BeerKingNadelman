@@ -1,0 +1,223 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  background-image: url(/imagenes/fondo-papel-tapiz-vintage.jpg);
+  background-size: 100% auto;
+  font-family: "Inknut Antiqua", serif;
+}
+
+.barraSuperior {
+  background-color: #4D331F;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.itemBarraSuperior {
+  font-family: "Inknut Antiqua", serif;
+  text-decoration: none;
+  color: white;
+  padding: 1.2rem;
+}
+
+.imagenMain {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+}
+
+.lupulo {
+  height: 40vh;
+}
+
+.texto {
+  color: white;
+  width: 30vw;
+  margin-right: 10vw;
+}
+
+.section {
+  height: 60vh;
+  font-family: "Inknut Antiqua", serif;
+  background-image: url(/imagenes/fondo4MasChico.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 2.5rem;
+  justify-content: space-between;
+}
+
+.barraInferior {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .barraInferior {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .texto {
+    color: white;
+    width: 100vw;
+    margin-right: 0vw;
+  }
+  .barraInfIconos {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 40vw;
+    margin-left: 5vw;
+    margin-top: 10vh;
+    padding: 2rem;
+  }
+  .parrafo {
+    color: #4D331F;
+    font-size: 1rem;
+    width: 40vw;
+    padding: 3rem;
+  }
+}
+.footerFormulario {
+  font-family: "Inknut Antiqua", serif;
+  height: 10vh;
+  width: 30vw;
+  margin-right: 5vw;
+  margin-top: 20vh;
+  padding: 10px;
+}
+
+.enviarEmail {
+  margin-top: 1vh;
+  border-radius: 5px;
+  font-family: "Inknut Antiqua", serif;
+  background-image: url(/imagenes/fondo-papel-tapiz-vintage.jpg);
+  background-size: 100% auto;
+  border: 0px;
+}
+
+.enviarEmail:hover {
+  border: 1px solid;
+}
+
+.barraInfIconos {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 40vw;
+  margin-left: 5vw;
+  margin-top: 20vh;
+}
+
+.marca {
+  width: 150px;
+}
+
+.instagram {
+  width: 80px;
+}
+
+.whatsapp {
+  width: 80px;
+}
+
+.imagenSection {
+  height: 400px;
+}
+
+.main__contenido {
+  font-family: "Inknut Antiqua", serif;
+}
+
+.fabrica {
+  font-family: "Inknut Antiqua", serif;
+  color: white;
+  background-image: url(/imagenes/fondo-papel-tapiz-vintage.jpg);
+  background-size: 100% auto;
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.imagenFabrica1 {
+  width: 35vw;
+}
+
+.parrafo {
+  color: #4D331F;
+  font-size: 1.4rem;
+  width: 40vw;
+  padding: 3rem;
+}
+
+.titulo {
+  color: #4D331F;
+  padding: 3rem;
+  font-size: 2.5rem;
+}
+
+.principalEstilos {
+  font-family: "Inknut Antiqua", serif;
+}
+
+.dorada {
+  width: 15vh;
+  padding: 3rem;
+}
+
+.ipaDelRey {
+  width: 15vw;
+  padding: 3rem;
+}
+
+.miel {
+  width: 15vw;
+  padding: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+  .estilo1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .estilo2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .estilo3 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.formulario {
+  padding: 2rem;
+  color: #ffffff;
+}
+
+.contactosFondo {
+  background-image: url(/imagenes/paraContactosEdit.jpg);
+  background-size: 100%;
+}
+
+.nosotrosImagen1 {
+  width: 60vw;
+}
+
+.calesita {
+  width: 60vw;
+}
+
+
+
+
+/*# sourceMappingURL=estilos.css.map */

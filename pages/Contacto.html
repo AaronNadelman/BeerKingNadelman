@@ -16,6 +16,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Inknut+Antiqua:wght@300&family=Montserrat:wght@600&display=swap"
         rel="stylesheet">
+    <link rel="shortcut icon" href="/imagenes/favIcon/6740133_alcohol_beer_beverage_drink_foam_icon.png"
+        type="image/x-icon">
     <title>Contacto</title>
 </head>
 
@@ -46,62 +48,135 @@
             </div>
         </nav>
     </header>
-    <main>
-        <h1>Contacto</h1>
-        <section>
-            <div>
-                <form action="">
-                    <label for="name">Nombre</label>
-                    <input type="text" name="name">
-                </form>
+    <main class="conteiner-fluid">
+
+        <div class="row">
+
+            <div class="contactoTitulo col">
+                <h1 class="text-center titulo">Contactate con nosotros</h1>
+                <br>
             </div>
-            <div>
-                <form action="">
-                    <label for="email">Email</label>
-                    <input type="text" name="email">
-                </form>
+
+        </div>
+        <div class="row contactosFondo">
+
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <p class="parrafo text-center align-self-center">Si te intersa saber más acerca de nosotros o querés
+                    formar parte de
+                    nuestro equipo
+                    podes contactarte rellenando este formulario</p>
             </div>
-            <div>
-                <form action="">
-                    <label for="adress">Dirección</label>
-                    <input type="text" name="adress">
-                </form>
-            </div>
-            <div>
-                <form action="">
-                    <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
-                    <input type="button" value="Enviar">
+
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <form class="row g-3 formulario">
+                    <div class="col-md-6">
+                        <label for="inputName" class="form-label">Nombre</label>
+                        <input type="email" class="form-control" id="inputName">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputLastName" class="form-label">Apellido</label>
+                        <input type="password" class="form-control" id="inputLastName">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress" class="form-label">Dirección</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputEmail" class="form-label">Email</label>
+                        <input type="text" class="form-control" id="inputEmail" placeholder="ejemplo@email.com">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputPhoneNumber" class="form-label">Número de telefono</label>
+                        <input type="text" class="form-control" id="inputPhoneNumber" placeholder="">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputCity" class="form-label">Ciudad</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputState" class="form-label">Provincia</label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Elegí una opción</option>
+                            <option>Buenos Aires</option>
+                            <option>Catamarca</option>
+                            <option>Chaco</option>
+                            <option>Chubut</option>
+                            <option>Cordoba</option>
+                            <option>Corrientes</option>
+                            <option>Entre Ríos</option>
+                            <option>Formosa</option>
+                            <option>Jujuy</option>
+                            <option>La pampa</option>
+                            <option>La rioja</option>
+                            <option>Mendoza</option>
+                            <option>Misiones</option>
+                            <option>Neuquén</option>
+                            <option>Río Negro</option>
+                            <option>Salta</option>
+                            <option>San Juan</option>
+                            <option>San Luis</option>
+                            <option>Santa Cruz</option>
+                            <option>Santa Fe</option>
+                            <option>Santiago del Estero</option>
+                            <option>Tierra del Fuego</option>
+
+
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Quiero recibir las ultimas noticias.
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="enviarEmail">enviar</button>
+                    </div>
                 </form>
             </div>
 
-        </section>
+        </div>
+
 
     </main>
-    <footer class="footer">
-        <nav>
-            <div>
-                <a href="">
-                    <img src="" alt="Logo">
-                </a>
-            </div>
-            <div>
-                <a href="">
-                    <img src="" alt="Logo instagram">
-                </a>
-            </div>
-            <div>
-                <a href="">
-                    <img src="" alt="Logo whatsapp">
-                </a>
-            </div>
-            <div>
-                <a href="">
-                    <img src="" alt="Logo Facebook">
-                </a>
-            </div>
 
-        </nav>
+    <footer class="piePagina">
+        <div class="barraInferior">
+            <div>
+                <ul class="barraInfIconos">
+                    <li>
+                        <a href="">
+                            <img class="marca" src="/imagenes/logos-marca/png/logo-no-background.png" alt="Logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img class="instagram" src="/imagenes/redes/instagram.png" alt="Logo instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank">
+                            <img class="whatsapp" src="/imagenes/redes/whatsapp.png" alt="Logo whatsapp">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-3 footerFormulario">
+                <label for="exampleFormControlInput1" class="form-label">¿Querés recibir las ultimas noticias?</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ejemplo@email.com">
+                <div>
+                    <button class="enviarEmail">enviar</button>
+                </div>
+            </div>
+        </div>
+
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
 
 </body>
 
