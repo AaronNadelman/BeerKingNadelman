@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Beer King: La mejor cerveza artesanal de Argentina, conocé nuestra fábrica.">
     <!--link a bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <!--link a css propio-->
-    <link rel="stylesheet" href="/styles/estilosass.css">
+    <link rel="stylesheet" href="/scss/base.css">
     <!--link a google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,19 +19,23 @@
         rel="stylesheet">
     <link rel="shortcut icon" href="/imagenes/favIcon/6740133_alcohol_beer_beverage_drink_foam_icon.png"
         type="image/x-icon">
-    <title>Nuestra Fabrica</title>
+    <title>Beer King -- Nuestra Fabrica</title>
 </head>
 
 <body>
     <header class="header">
-        <nav class="navbar navbar-expand-lg barraSuperior">
+        <nav class="navbar navbar-expand-lg  barraSuperior">
 
-            <div class="logoBarraSuperior">
+            <div class="logoBarraSuperior conteiner-fluid">
                 <a class="navbar-brand" href="/">
-                    <img src="/imagenes/logos-marca/png/logo-white-removebg-preview.png" width="150px" alt="">
+                    <img class="logotipo" src="/imagenes/logos-marca/png/blancoSinFondo.png" alt="logotipo">
                 </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             </div>
-            <div class="" id="navbarNav">
+            <div class="collapse navbar-collapse contenedorMenu" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a href="/pages/nuestraFabrica.html" class="itemBarraSuperior">Nuestra fábrica</a>
@@ -40,8 +45,8 @@
                     </li>
                     <li class="nav-item">
                         <a href="/pages/SobreNosotros.html" class="itemBarraSuperior" ">Sobre Nosotros</a>
-              </li>
-              <li class=" nav-item">
+                    </li>
+                    <li class=" nav-item">
                             <a href="/pages/Contacto.html" class="itemBarraSuperior">Contacto</a>
                     </li>
                 </ul>
@@ -52,28 +57,26 @@
         <section class="conteiner-fluid justify-content-center">
             <h1 class="titulo text-center">Nuestra Fábrica</h1>
             <div class="row p-4 justify-content-center">
-                <img class="col-sm-12 col-md-6 col-lg-6" src="/imagenes/fabrica/evo-tronic-8.jpg" alt="">
-                <p class="col-sm-12 col-md-6 col-lg-6 parrafo">Nuestra fábrica tiene sus inicios a comienzos del año
-                    2019 cuado un grupo de
-                    amigos
-                    comenzamos a
-                    hacer cerveza artesanal para consumo propio.</p>
+                <img class="col-sm-12 col-md-6 col-lg-6" src="/imagenes/fabrica/evo-tronic-8.jpg"
+                    alt="Maquinaria para fabricar cerveza">
+                <p class="col-sm-12 col-md-6 col-lg-6 parrafo">En el año 2019, un grupo de amigos de la ciudad de
+                    Resistencia, Chaco, decidieron cumplir su sueño de crear una fábrica de cerveza artesanal. Se
+                    juntaron sus ahorros y empezaron a trabajar en un pequeño local en el centro de la ciudad.</p>
             </div>
             <div class="row p-4 justify-content-center">
                 <img class="col-sm-12 col-md-6 col-lg-6" src="/imagenes/fabrica/istockphoto-1397498306-612x612.jpg"
-                    alt="">
-                <p class="col-sm-12 col-md-6 col-lg-6 parrafo">La cerveza gustó tanto a familiares y amigos que
-                    decidimos emprender y comenzar a
-                    comercializar
-                    nuestra cerveza.</p>
+                    alt="Empleado catando cerveza">
+                <p class="col-sm-12 col-md-6 col-lg-6 parrafo">Los primeros años fueron difíciles, pero el esfuerzo y la
+                    dedicación de los amigos dieron sus frutos. Su cerveza, elaborada con ingredientes de primera
+                    calidad y siguiendo procesos tradicionales, empezó a ganarse el reconocimiento de los consumidores.
+                </p>
             </div>
             <div class="row p-4  justify-content-center">
                 <img class="col-sm-12 col-md-6 col-lg-6" src="/imagenes/fabrica/istockphoto-1179301424-612x612.jpg"
-                    alt="">
-                <p class="col-sm-12 col-md-6 col-lg-6 parrafo">Hacemos que la cerveza sepa mejor con nuestras recetas
-                    inspiradas en las principales
-                    cervecerías de
-                    escandinavia.</p>
+                    alt="Maquina tapa botellas">
+                <p class="col-sm-12 col-md-6 col-lg-6 parrafo">Beer King se elabora con ingredientes locales, como
+                    maltas de la provincia de Chaco y lúpulos de la Patagonia. La fábrica cuenta con una sala de cata
+                    donde los visitantes pueden probar sus cervezas.</p>
             </div>
 
         </section>

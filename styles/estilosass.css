@@ -14,9 +14,12 @@ body {
 .barraSuperior {
   background-color: #4D331F;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-between; 
   padding: 1rem;
+}
+
+.contenedorMenu{
+  justify-content: end;
 }
 
 .itemBarraSuperior {
@@ -24,6 +27,10 @@ body {
   text-decoration: none;
   color: white;
   padding: 1.2rem;
+}
+
+.logotipo{
+  width: 130px;
 }
 
 .imagenMain{

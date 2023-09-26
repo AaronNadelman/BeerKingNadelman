@@ -1,0 +1,77 @@
+.principalEstilos {
+    font-family: "Inknut Antiqua", serif;
+
+    .titulo {
+        color: #4D331F;
+        padding: 3rem;
+        font-size: 2.5rem;
+    }
+
+    .estilosCerveza {
+        .dorada {
+            width: 15vh;
+            padding: 3rem;
+        }
+
+        .dorada:hover {
+            transform: scale(1.1, 1.1);
+        }
+
+        .ipaDelRey {
+            width: 15vw;
+            padding: 3rem;
+        }
+
+        .ipaDelRey:hover {
+            transform: scale(1.1, 1.1);
+        }
+
+        .miel {
+            width: 15vw;
+            padding: 3rem;
+        }
+
+        .miel:hover {
+            transform: scale(1.1, 1.1);
+        }
+
+        .parrafo {
+            color: #4D331F;
+            font-size: 1.4rem;
+            width: 40vw;
+            padding: 3rem;
+        }
+
+    }
+
+    @media screen and (max-width: 600px) {
+
+        .estilosCerveza {
+
+            .dorada {
+                width: 100vh;
+                padding: 3rem;
+            }
+
+            .ipaDelRey {
+                width: 100vw;
+                padding: 3rem;
+            }
+
+            .miel {
+                width: 100vw;
+                padding: 3rem;
+            }
+
+            .parrafo {
+                color: #4D331F;
+                font-size: 1.5rem;
+                width: 100vw;
+                padding: 3rem;
+            }
+
+        }
+
+    }
+
+}

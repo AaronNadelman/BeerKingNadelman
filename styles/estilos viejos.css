@@ -1,0 +1,111 @@
+.parrafo {
+  color: #4D331F;
+  font-size: 1rem;
+  width: 40vw;
+  padding: 3rem;
+}
+
+
+
+.enviarEmail {
+  margin-top: 1vh;
+  border-radius: 5px;
+  font-family: "Inknut Antiqua", serif;
+  background-color: #ffffff;
+  border: 0px;
+
+}
+
+.enviarEmail:hover {
+  border: 1px solid;
+  background-image: url(/imagenes/fondo-papel-tapiz-vintage.jpg);
+}
+
+
+
+
+.imagenSection {
+  height: 400px;
+}
+
+.main__contenido {
+  font-family: 'Inknut Antiqua', serif;
+}
+
+
+
+.parrafo {
+  color: #4D331F;
+  font-size: 1.4rem;
+  width: 40vw;
+  padding: 3rem;
+}
+
+.titulo {
+  color: #4D331F;
+  padding: 3rem;
+  font-size: 2.5rem;
+}
+
+.principalEstilos {
+  font-family: "Inknut Antiqua", serif;
+}
+
+.dorada {
+  width: 15vh;
+  padding: 3rem;
+}
+
+.ipaDelRey {
+  width: 15vw;
+  padding: 3rem;
+}
+
+.miel {
+  width: 15vw;
+  padding: 3rem;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .estilo1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .estilo2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .estilo3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+.formulario {
+  padding: 2rem;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px black;
+}
+
+.contactosFondo {
+  background-image: url(/imagenes/paraContactosEdit.jpg);
+  background-size: 100%;
+}
+
+.nosotrosImagen1 {
+  width: 60vw;
+}
+
+.calesita {
+  width: 60vw;
+}
+
+.colorBlanco {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}

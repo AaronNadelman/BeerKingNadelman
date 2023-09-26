@@ -1,0 +1,73 @@
+.principalContactos {
+    div {
+        div {
+            .titulo {
+                color: #4D331F;
+                padding: 3rem;
+                font-size: 2.5rem;
+            }
+        }
+    }
+
+    .contactoTexto {
+
+        background-image: url(/imagenes/paraContactosEdit.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+        div {
+            .parrafoContactos {
+                color: #ffffff;
+                text-shadow: 1px 1px 2px black;
+                font-size: 1.4rem;
+                width: 40vw;
+                padding: 3rem;
+            }
+        }
+
+        div {
+            .formulario {
+                padding: 2rem;
+                color: #ffffff;
+                text-shadow: 1px 1px 2px black;
+
+                div {
+                    .enviarEmail {
+                        margin-top: 1vh;
+                        border-radius: 5px;
+                        font-family: "Inknut Antiqua", serif;
+                        background-color: #ffffff;
+                        border: 0px;
+
+
+                    }
+
+                    .enviarEmail:hover {
+                        border: 1px solid;
+                        background-image: url(/imagenes/fondo-papel-tapiz-vintage.jpg);
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 742px) {
+
+    .principalContactos {
+        .contactoTexto {
+            div {
+                .parrafoContactos {
+                    color: #ffffff;
+                    text-shadow: 1px 1px 2px black;
+                    font-size: 1.4rem;
+                    width: 100vw;
+                    padding: 3rem;
+                }
+            }
+        }
+    }
+
+}

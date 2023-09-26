@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Beer King: La mejor cerveza artesanal de Argentina, explorá nuestras variedades">
     <!--link a bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <!--link a css propio-->
-    <link rel="stylesheet" href="/styles/estilosass.css">
+    <link rel="stylesheet" href="/scss/base.css">
     <!--link a google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,19 +19,23 @@
         rel="stylesheet">
     <link rel="shortcut icon" href="/imagenes/favIcon/6740133_alcohol_beer_beverage_drink_foam_icon.png"
         type="image/x-icon">
-    <title>Estilos</title>
+    <title>Beer King -- Estilos</title>
 </head>
 
 <body>
     <header class="header">
-        <nav class="navbar navbar-expand-lg barraSuperior">
+        <nav class="navbar navbar-expand-lg  barraSuperior">
 
-            <div class="logoBarraSuperior">
+            <div class="logoBarraSuperior conteiner-fluid">
                 <a class="navbar-brand" href="/">
-                    <img src="/imagenes/logos-marca/png/logo-white-removebg-preview.png" width="150px" alt="">
+                    <img class="logotipo" src="/imagenes/logos-marca/png/blancoSinFondo.png" alt="logotipo">
                 </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             </div>
-            <div class="" id="navbarNav">
+            <div class="collapse navbar-collapse contenedorMenu" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a href="/pages/nuestraFabrica.html" class="itemBarraSuperior">Nuestra fábrica</a>
@@ -53,7 +58,7 @@
         <section class="conteiner-fluid estilosCerveza">
 
             <div class="row">
-                <img class="dorada col-sm img-fluid" src="/imagenes/estilo1Chico.jpg" alt="Responsive image">
+                <img class="dorada col-sm img-fluid" src="/imagenes/estilos/estilo1Chico.jpg" alt="Responsive image">
                 <p class="col-sm align-self-center parrafo text-center">Dorada: De los estilos más vendidos, la cerveza
                     dorada se destaca
                     por su
@@ -62,7 +67,7 @@
             </div>
 
             <div class="row">
-                <img class="ipaDelRey col-sm img-fluid" src="/imagenes/estilo2Chica.jpg" alt="Responsive image">
+                <img class="ipaDelRey col-sm img-fluid" src="/imagenes/estilos/estilo2Chica.jpg" alt="Responsive image">
                 <p class="col-sm align-self-center parrafo text-center">Ipa del rey: Una cerveza digna de los reyes, muy
                     aromática y con
                     un sabor
@@ -71,7 +76,7 @@
             </div>
 
             <div class="row">
-                <img class="miel col-sm img-fluid" src="/imagenes/estilo3Chica.jpg" alt="Responsive image">
+                <img class="miel col-sm img-fluid" src="/imagenes/estilos/estilo3Chica.jpg" alt="Responsive image">
                 <p class="col-sm align-self-center parrafo text-center">Honey: Hecha con miel orgánica de la merjor
                     calidad, esta cerveza
                     capta las notas dulces de la miel y el amargor del lupulo que convinados crean un valance y la hace

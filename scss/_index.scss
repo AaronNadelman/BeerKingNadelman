@@ -1,0 +1,46 @@
+.principalIndex {
+  .imagenMain {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+  }
+
+  .section {
+    height: 60vh;
+    font-family: "Inknut Antiqua", serif;
+    background-image: url(/imagenes/fondo4MasChico.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 2.5rem;
+    justify-content: space-between;
+
+    .texto {
+      color: white;
+      width: 30vw;
+      margin-right: 10vw;
+      margin-top: 10vh;
+      text-shadow: 1px 1px 2px black;
+    }
+
+  }
+}
+
+@media screen and (max-width: 936px) {
+
+  .principalIndex {
+    .section {
+      .texto {
+        color: white;
+        width: 100vw;
+        margin-right: 10vw;
+        margin-top: 10vh;
+        text-shadow: 1px 1px 2px black;
+      }
+    }
+  }
+
+}

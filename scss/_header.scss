@@ -1,0 +1,25 @@
+.header {
+  .barraSuperior {
+    background-color: #4d331f;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+    .logotipo {
+      width: 130px;
+    }
+
+    .contenedorMenu {
+      justify-content: end;
+
+      ul {
+        .itemBarraSuperior {
+          font-family: "Inknut Antiqua", serif;
+          text-decoration: none;
+          color: white;
+          padding: 1.2rem;
+        }
+      }
+    }
+  }
+}
