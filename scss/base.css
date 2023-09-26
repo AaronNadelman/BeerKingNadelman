@@ -150,21 +150,22 @@ footer .barraInferior .footerFormulario .enviarEmail:hover {
   font-size: 2.5rem;
 }
 .principalEstilos .estilosCerveza .dorada {
-  width: 15vh;
+  width: 30vw;
   padding: 3rem;
+  align-self: center;
 }
 .principalEstilos .estilosCerveza .dorada:hover {
   transform: scale(1.1, 1.1);
 }
 .principalEstilos .estilosCerveza .ipaDelRey {
-  width: 15vw;
+  width: 30vw;
   padding: 3rem;
 }
 .principalEstilos .estilosCerveza .ipaDelRey:hover {
   transform: scale(1.1, 1.1);
 }
 .principalEstilos .estilosCerveza .miel {
-  width: 15vw;
+  width: 30vw;
   padding: 3rem;
 }
 .principalEstilos .estilosCerveza .miel:hover {
